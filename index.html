@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Desafios HTML </title>
-    </head>
-    <style>
+        <title>Desafios HTML 01</title>
+    
+     <style>
         .mainmenubtn {
-    background-color: skyblue;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding:20px;
-    margin-top:20px;
-}
-.mainmenubtn:hover {
-    background-color: blue;
-    }
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-child {
-    display: none;
-    background-color: skyblue;
-    min-width: 200px;
-}
-.dropdown-child a {
-    color: blue;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown:hover .dropdown-child {
-    display: block;
-}
-    </style>
+         background-color: skyblue;
+         color: white;
+           border: none;
+             cursor: pointer;
+           padding:20px;
+         margin-top:20px;
+         }
+           .mainmenubtn:hover {
+              background-color: blue;
+             }
+           .dropdown {
+          position: relative;
+          display: inline-block;
+          }
+         .dropdown-child {
+         display: none;
+         background-color: skyblue;
+         min-width: 200px;
+         }
+         .dropdown-child a {
+         color: blue;
+          padding: 20px;
+         text-decoration: none;
+          display: block;
+          }
+           .dropdown:hover .dropdown-child {
+          display: block;
+         }
+        </style>        
+    </head>
     <body>
-        <p> Desafios html</p>
-        <ul>
-            <li><a href="formulario.html">formulario</a></li>
-            <li><a href="texto.html">formatacao-textual</a></li>
-            <li><a href="tabela.html">tabela</a></li>
-            <li><a href="lista-ordenada.html">lista-ordenada</a></li>
-            <li><a href="lista-nao-ordenada.html">lista-nao-ordenada</a></li>
-            <li><a href="imagem.html">imagem</a></li>
-     </ul>
-    </body>]
+      <div class="dropdown">
+         <button class="mainmenubtn"> main menu</button> 
+         <div class="dropdown-child">
+              <p> Desafios html</p>      
+             <a href="formulario.html">formulario</a></li>
+             <a href="texto.html">formatacao-textual</a></li>
+             <a href="tabela.html">tabela</a></li>
+             <a href="lista-ordenada.html">lista-ordenada</a></li>
+             <a href="lista-nao-ordenada.html">lista-nao-ordenada</a></li>
+             <a href="imagem.html">imagem</a></li>
+         </div>  
+      </div>
+   </body>
 </html>
